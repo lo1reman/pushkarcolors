@@ -1,6 +1,6 @@
 body{
     background-image: url(../img/bg.jpg);
-    margin: -10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
 }
 
@@ -8,19 +8,22 @@ body{
     list-style-type: none;
     padding: 2px;
     position: fixed;
+  	bottom: 0;
+  	width: 100%;
     overflow: auto;
-    height: 100%;
-    margin: -40px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: lightgray;
-    width: 10%;
     color: #000;
     opacity: 70%;
     font-weight: bold;
     font-size: 20px;
+    padding: 0;
+    float: left; 
 }
 
 .sidebar ul li{
-    display: block;
+    display: inline;
+    float: left;
 }
 
 .sidebar ul li a{
@@ -37,15 +40,17 @@ body{
 }
 
 .maintext{
-    margin: 2px 2px 2px 11%;
+    margin: -40px 30px 30px 30px;
     font-size: 27px;
+    padding: 10px;
 }
 
 .header{
     font-size: 30px;
     font-weight: bold;
     font-family: Sans-Serif;
-    margin: 50px 100px;
+    margin: 25px 50px;
+    padding: 25px 50px;
 }
 
 .hd{
